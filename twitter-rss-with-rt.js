@@ -11,9 +11,7 @@ function GetTwitterFeedIncRT(username, maxTweets, outputElementId)
 {
 	if (maxTweets == null) maxTweets = 10;
 
-	var url = 'http%3A%2F%2Ftwitter.com%2Fstatuses%2Fuser_timeline%2F' + username + '.atom%3Finclude_rts%3Dtrue&26count=' + maxTweets + '&num=' + maxTweets;
-
-	url = 'http://twitter.com/statuses/user_timeline/'+username+'.atom?count='+maxTweets+'&include_rts=true&callback=?'
+	var url = 'http://twitter.com/statuses/user_timeline/'+username+'.atom?count='+maxTweets+'&include_rts=true&callback=?'
 	var gurl = "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&num="+maxTweets+"&q="+url;
 
 	var fnk = function(feeds) 
