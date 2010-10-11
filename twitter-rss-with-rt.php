@@ -2,8 +2,8 @@
 /*
 Plugin Name: TwitterRSSWithRT
 Plugin URI: http://maraboustork.co.uk/index.php/2010/10/add-retweets-to-your-twitter-blogs/
-Description: Add Retweets to your twitter rss feed
-Version: The Plugin's Version Number, e.g.: 1.0
+Description: Add retweets to your twitter rss feed
+Version: 1.0.1
 Author: MarabouStork
 Author URI: http://MarabouStork.co.uk
 */

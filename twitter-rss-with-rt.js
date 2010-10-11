@@ -63,7 +63,7 @@ function GetTwitterFeedIncRT(username, maxTweets, outputElementId)
 										'</li>');
 				}
 
-				statusHTML.push('<li style="font-size: 8px;">powered by <a href="http://maraboustork.co.uk/index.php/2010/10/add-retweets-to-your-twitter-blogs/">MarabouStork TwitterFeed</a></li>');
+				statusHTML.push('<li style="font-size: 8px;">powered by <a href="http://maraboustork.co.uk/index.php/2010/10/new-wordpress-plugin-released-to-add-twitter-feeds-to-your-site/">MarabouStork TwitterFeed</a></li>');
 
 				document.getElementById(outputElementId).innerHTML = statusHTML.join('');
 			};
