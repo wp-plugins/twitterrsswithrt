@@ -56,7 +56,7 @@ the feed will also appear in your blog page.
 
 You can either install it automatically from the WordPress admin, or do it manually:
 
-1. Upload the whole `TwitterRSSWithRT` directory into your plugins folder(`/wp-content/plugins/`)
+1. Upload the whole `twitter-rss-with-rt` directory into your plugins folder(`/wp-content/plugins/`)
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 Once installed take the following steps to set it up:
